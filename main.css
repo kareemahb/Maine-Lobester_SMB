@@ -1,0 +1,788 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito Sans" sans-serif;
+  color: #173f50;
+  background: #f8f2e7;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+}
+a {
+  color: inherit;
+}
+header {
+  background: #194c63;
+  color: white;
+}
+header nav {
+  width: 72%;
+  max-width: 1100px;
+  min-height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+header nav h1 {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+header nav ul {
+  margin: 0 0 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+header nav li {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+header nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav li a:hover {
+  text-decoration: underline;
+}
+
+header nav > a {
+  background: #f45d32;
+  padding: 10px 24px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+header > p {
+  margin: 0;
+  padding: 8px 20px;
+  text-align: center;
+  background: #f45d32;
+  color: white;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+main {
+  background: #123d50;
+}
+
+main > section {
+  min-height: 530px;
+  padding: 95px 14%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(8, 42, 55, 0.95) 0%,
+      rgba(8, 42, 55, 0.78) 45%,
+      rgba(8, 42, 55, 0.25) 100%
+    ),
+    url(Lobster-Roll.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main > section > span:first-child {
+  color: #ff8566;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 18px;
+}
+
+main > section > h1 {
+  max-width: 600px;
+
+  margin-bottom: 20px;
+
+  color: white;
+
+  font-size: clamp(54px, 5vw, 76px);
+  line-height: 0.95;
+}
+
+/* Hero paragraph */
+
+main > section > p {
+  max-width: 550px;
+
+  margin-bottom: 28px;
+
+  color: #dbe5e9;
+
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Hero buttons */
+
+main > section > a {
+  display: inline-block;
+
+  margin-right: 12px;
+  margin-bottom: 14px;
+
+  padding: 13px 25px;
+
+  border: 2px solid white;
+  border-radius: 30px;
+
+  color: white;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/* First hero button */
+
+main > section > a:first-of-type {
+  background-color: #f45d32;
+  border-color: #f45d32;
+}
+
+/* Hero small bottom text */
+
+main > section > span:last-child {
+  margin-top: 4px;
+
+  font-size: 11px;
+  font-weight: 800;
+
+  color: #dbe5e9;
+}
+
+/* 
+   ALL MAIN BODY SECTIONS
+ */
+
+body > section {
+  padding: 95px 14%;
+}
+
+/* little orange labels */
+
+body > section > span:first-child {
+  display: block;
+
+  margin-bottom: 15px;
+
+  color: #f45d32;
+
+  font-size: 11px;
+  font-weight: 800;
+
+  letter-spacing: 3px;
+}
+
+/* Main section headings */
+
+body > section > h2 {
+  margin-bottom: 10px;
+
+  font-size: 39px;
+  line-height: 1;
+
+  color: #173f50;
+}
+
+body > section > h2 + p {
+  max-width: 650px;
+
+  margin-bottom: 38px;
+
+  color: #748087;
+
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* 
+   MENU SECTION
+ */
+
+body > section:nth-of-type(1) {
+  background-color: #f8f2e7;
+}
+
+/* Menu cards */
+
+body > section:nth-of-type(1) > section {
+  width: calc(50% - 12px);
+
+  display: inline-block;
+  vertical-align: top;
+
+  min-height: 310px;
+
+  padding: 30px;
+
+  background-color: #fffdf8;
+
+  border-radius: 12px;
+
+  box-shadow: 0 14px 25px rgba(31, 55, 65, 0.08);
+}
+
+/* First menu card */
+
+body > section:nth-of-type(1) > section:nth-of-type(1) {
+  margin-right: 20px;
+
+  border-top: 6px solid #174b61;
+}
+
+/* Second menu card */
+
+body > section:nth-of-type(1) > section:nth-of-type(2) {
+  border-top: 6px solid #f45d32;
+}
+
+/* Menu card headings */
+
+body > section:nth-of-type(1) section h3 {
+  margin-bottom: 24px;
+
+  font-size: 22px;
+
+  color: #174b61;
+}
+
+/* Menu rows */
+
+body > section:nth-of-type(1) section > p {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+
+  margin-bottom: 6px;
+
+  padding-bottom: 4px;
+
+  border-bottom: 1px dotted #c8b79d;
+
+  color: #52656e;
+
+  font-size: 14px;
+}
+
+/* Prices */
+
+body > section:nth-of-type(1) section p strong {
+  color: #e54827;
+  font-weight: 800;
+}
+
+/* Menu descriptions */
+
+body > section:nth-of-type(1) section > span {
+  display: block;
+
+  margin-bottom: 21px;
+
+  color: #929a9c;
+
+  font-size: 11px;
+}
+
+body > section:nth-of-type(1) > p:last-child {
+  margin-top: 35px;
+  margin-bottom: 0;
+
+  text-align: center;
+
+  color: #737e82;
+
+  font-size: 13px;
+}
+
+body > section:nth-of-type(2) {
+  background-color: #194c63;
+
+  color: white;
+}
+
+body > section:nth-of-type(2) > h2 {
+  color: white;
+}
+
+body > section:nth-of-type(2) > h2 + p {
+  color: #c7d5da;
+}
+
+body > section:nth-of-type(2) > section {
+  width: calc(25% - 15px);
+
+  min-height: 255px;
+
+  margin-right: 15px;
+
+  padding: 26px 24px;
+
+  display: inline-block;
+  vertical-align: top;
+
+  background-color: #315f73;
+
+  border: 1px solid #668391;
+  border-radius: 12px;
+}
+
+body > section:nth-of-type(2) > section:last-child {
+  margin-right: 0;
+}
+
+body > section:nth-of-type(2) > section > strong {
+  width: 38px;
+  height: 38px;
+
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f45d32;
+
+  border-radius: 50%;
+
+  color: white;
+
+  font-size: 16px;
+}
+
+body > section:nth-of-type(2) section h3 {
+  margin-bottom: 12px;
+
+  color: white;
+
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+/* Card text */
+
+body > section:nth-of-type(2) section p {
+  margin: 0;
+
+  color: #d4e0e3;
+
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+/* 
+   LOCATION / FIND THE WHARF
+ */
+
+body > section:nth-of-type(3) {
+  background-color: #f8f2e7;
+
+  padding-bottom: 115px;
+}
+
+/* Location cards */
+
+body > section:nth-of-type(3) > section {
+  width: calc(33.333% - 16px);
+
+  min-height: 190px;
+
+  margin-right: 18px;
+
+  padding: 27px;
+
+  display: inline-block;
+  vertical-align: top;
+
+  background-color: #fffdf8;
+
+  border-radius: 12px;
+
+  box-shadow: 0 14px 25px rgba(31, 55, 65, 0.08);
+}
+
+body > section:nth-of-type(3) > section:last-child {
+  margin-right: 0;
+}
+
+body > section:nth-of-type(3) section h3 {
+  color: #174b61;
+
+  font-size: 18px;
+}
+
+body > section:nth-of-type(3) section p,
+body > section:nth-of-type(3) section address {
+  color: #52656e;
+
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+body > section:nth-of-type(3) address {
+  margin-bottom: 10px;
+
+  font-style: normal;
+}
+
+/* Location links */
+
+body > section:nth-of-type(3) section a {
+  display: block;
+
+  color: #e44728;
+
+  font-size: 13px;
+  font-weight: 800;
+}
+
+/* 
+   FOOTER
+ */
+
+footer {
+  position: relative;
+
+  padding: 70px 14% 25px;
+
+  background-color: #10394a;
+
+  color: white;
+}
+
+footer::before {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  top: -25px;
+
+  width: 100%;
+  height: 35px;
+
+  background-color: #10394a;
+
+  clip-path: polygon(
+    0 50%,
+    10% 30%,
+    25% 45%,
+    40% 55%,
+    55% 35%,
+    70% 50%,
+    85% 32%,
+    100% 48%,
+    100% 100%,
+    0 100%
+  );
+}
+
+/* Footer columns */
+
+footer > section {
+  width: 31%;
+
+  margin-right: 2%;
+
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer headings */
+
+footer section h3 {
+  margin-bottom: 10px;
+
+  color: white;
+
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/* Footer text */
+
+footer section p,
+footer section span,
+footer section address {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #b8cbd2;
+
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+/* Remove italic address */
+
+footer address {
+  font-style: normal;
+}
+
+/* Footer links */
+
+footer section a {
+  color: #c7d8dd;
+
+  font-size: 12px;
+}
+
+/* Copyright */
+
+footer > p {
+  margin-top: 45px;
+  padding-top: 20px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+
+  color: #a9bec7;
+
+  font-size: 11px;
+}
+
+/* Back to top */
+
+footer > a {
+  float: right;
+
+  margin-top: -30px;
+
+  color: #b8cbd2;
+
+  font-size: 11px;
+}
+
+/* 
+   TABLET
+   768px - 1024px
+ */
+
+@media (max-width: 1024px) {
+  header nav {
+    width: 88%;
+  }
+
+  main > section {
+    padding: 80px 8%;
+  }
+
+  body > section {
+    padding: 75px 8%;
+  }
+
+  footer {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  /* Menu */
+
+  body > section:nth-of-type(1) > section {
+    width: calc(50% - 12px);
+  }
+
+  body > section:nth-of-type(2) > section {
+    width: calc(50% - 12px);
+
+    margin-right: 18px;
+    margin-bottom: 18px;
+  }
+
+  body > section:nth-of-type(2) > section:nth-of-type(2n) {
+    margin-right: 0;
+  }
+
+  body > section:nth-of-type(3) > section {
+    width: calc(33.333% - 15px);
+
+    margin-right: 15px;
+  }
+}
+
+/* 
+   MOBILE
+ */
+
+@media (max-width: 700px) {
+  header nav {
+    width: 90%;
+
+    padding: 18px 0;
+
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 16px;
+  }
+
+  header nav h1 {
+    font-size: 18px;
+  }
+
+  header nav ul {
+    width: 100%;
+
+    margin: 0;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+  }
+
+  header nav > a {
+    padding: 9px 18px;
+  }
+
+  header > p {
+    font-size: 11px;
+  }
+
+  /* Hero */
+
+  main > section {
+    min-height: 600px;
+
+    padding: 75px 6%;
+
+    background-position: 60% center;
+  }
+
+  main > section > h1 {
+    max-width: 350px;
+
+    font-size: 52px;
+  }
+
+  main > section > p {
+    font-size: 16px;
+  }
+
+  /* Sections */
+
+  body > section {
+    padding: 65px 6%;
+  }
+
+  body > section > h2 {
+    font-size: 34px;
+  }
+
+  /* Menu cards */
+
+  body > section:nth-of-type(1) > section {
+    width: 100%;
+
+    display: block;
+
+    margin-right: 0;
+    margin-bottom: 22px;
+  }
+
+  /* How-to cards */
+
+  body > section:nth-of-type(2) > section {
+    width: 100%;
+
+    min-height: 0;
+
+    display: block;
+
+    margin-right: 0;
+    margin-bottom: 18px;
+  }
+
+  /* Location cards */
+
+  body > section:nth-of-type(3) > section {
+    width: 100%;
+
+    min-height: 0;
+
+    display: block;
+
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  /* Footer */
+
+  footer {
+    padding: 65px 6% 30px;
+  }
+
+  footer > section {
+    width: 100%;
+
+    display: block;
+
+    margin: 0 0 30px;
+  }
+
+  footer > p {
+    margin-top: 20px;
+  }
+
+  footer > a {
+    float: none;
+
+    display: block;
+
+    margin-top: 15px;
+  }
+}
+
+/* 
+   SMALL MOBILE
+ */
+
+@media (max-width: 420px) {
+  main > section > h1 {
+    font-size: 44px;
+  }
+
+  main > section > a {
+    display: block;
+
+    width: fit-content;
+
+    margin-bottom: 12px;
+  }
+
+  body > section > h2 {
+    font-size: 31px;
+  }
+}

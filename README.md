@@ -1,8 +1,7 @@
 # 🦞 Slack Tide Lobster Shack | Small Business Website
  
-A one-page website for **Slack Tide Lobster Shack**, a fictional family-run lobster shack on the wharf in Harpswell, Maine. The site gives customers what they need before they visit: the menu, how to eat a whole lobster, seasonal hours, location, and what to know before they go.
+A one-page website for **Slack Tide Lobster Shack**, a family-run lobster shack on the wharf in Harpswell, Maine. The site gives customers what they need before they visit: the menu, how to eat a whole lobster, seasonal hours, location, and what to know before they go.
  
-Built with plain HTML and CSS as part of my small business website series.
  
 🔗 **Live Site:** [smbusinessmn.netlify.app](https://smbusinessmn.netlify.app/)
 
